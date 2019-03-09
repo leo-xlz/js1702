@@ -1,0 +1,130 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.backgroundimg1{
+    background-image: url("../images/pics_01.gif");
+    /* width: 1600px; */
+    height: 600px;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.backgroundimg1 h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 300%;
+    color: white;
+}
+
+.backgroundimg1 p{
+    text-align: center;
+    
+    font-size: 100%;
+    color: white;
+    min-width: 30%;
+    max-width: 60%;
+    margin: auto;
+    /* 这里的auto使文字居中不能删 */
+    margin-top: 100px;
+}
+
+.makecenter{
+    text-align: center;
+    margin: auto;
+}
+
+.signUp{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    max-width: 60%;
+    min-width: 30%;
+    margin-top: 100px;
+    height: 250px;
+    
+}
+
+.signUp p{
+    color: white;
+    margin-top: 15px;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.signUp h3{
+    margin-top: 25px;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:872px) {
+    .input1{
+        float: left;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        margin: auto;
+        margin-top: 25px;
+        color: white;
+        vertical-align: middle;
+        width: auto;
+        min-width: 25%;
+        height: 40px;
+        text-align: center;
+        margin-left: 12%; 
+    }
+    .input2{
+        float: left;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        margin-top: 25px;
+        color: white;
+        vertical-align: middle;
+        width: auto;
+        min-width: 25%;
+        height: 40px;
+        text-align: center;     
+        margin-left: 3%;       
+    }
+    .signUp button{
+        float: left;
+        background-color: white;
+        margin-top: 25px;
+        margin-left:8%;
+        width: 15%;
+        height: 40px;
+        border: none;
+    }
+}
+@media screen and (max-width:871px) {
+    .input1{
+        display: block;
+        text-align: center;  
+        margin-left: 25%;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        width: 50%;
+        
+    }
+    .input2{
+        display: block;
+        text-align: center;  
+        margin-left: 25%;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        width: 50%;
+        
+        
+    }
+    .signUp button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+        text-align: center;
+        background-color: white;
+        width: 15%;
+        height: 40px;
+        border: none;
+    }
+}
